@@ -82,8 +82,7 @@ export default withAuth(
       }
 
       return (
-        <div style={{backgroundColor: 'red'}}>
-        <form style={{backgroundColor: "blue", width: "75%"}} onSubmit={this.handleSubmit}>
+        <form onSubmit={this.handleSubmit}>
           <div className="form-element">
             <label>Email:</label>
             <input
@@ -122,7 +121,6 @@ export default withAuth(
           </div>
           <input type="submit" id="submit" value="Register" />
         </form>
-        </div>
       );
     }
   }
